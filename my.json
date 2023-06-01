@@ -1,0 +1,51 @@
+{
+  "name": "my",
+  "root": {
+    "id": 1,
+    "name": "Selector",
+    "desc": "新建行为树",
+    "args": {},
+    "children": [
+      {
+        "id": 2,
+        "name": "myFun"
+      },
+      {
+        "id": 3,
+        "name": "Sequence",
+        "children": [
+          {
+            "id": 4,
+            "name": "myFun"
+          },
+          {
+            "id": 5,
+            "name": "myFun"
+          },
+          {
+            "id": 6,
+            "name": "myAct"
+          },
+          {
+            "id": 7,
+            "name": "Selector",
+            "children": [
+              {
+                "id": 8,
+                "name": "myFun"
+              },
+              {
+                "id": 9,
+                "name": "myAct"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "myAct"
+      }
+    ]
+  }
+}
