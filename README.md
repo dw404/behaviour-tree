@@ -9,6 +9,7 @@
 * behavior3editor.Setup.0.1.9是画行为树的软件，项目地址：https://github.com/zhandouxiaojiji/behavior3editor
 
   使用方法：
+  
   	1.打开编辑器
   	2.工作区->节点定义->选择文件(json)
   	3.工作区->选择目录(指定行为树所在的目录)
